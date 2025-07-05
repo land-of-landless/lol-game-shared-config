@@ -1,6 +1,6 @@
 {
   "name": "@land-of-landless/lol-game-shared-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared constants, types, and configuration for the LOL game.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
