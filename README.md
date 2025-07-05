@@ -1,6 +1,6 @@
 # lol-game-shared-config
 
-[![CI](https://github.com/land-of-landless/lol-game-shared-config/actions/workflows/main.yml/badge.svg)](https://github.com/your-username/lol-game-shared-config/actions/workflows/main.yml)
+[![CI](https://github.com/land-of-landless/lol-game-shared-config/actions/workflows/main.yml/badge.svg)](https://github.com/land-of-landless/lol-game-shared-config/actions/workflows/main.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A central repository for shared configuration files used across various League of Legends game-related projects. This ensures consistency in code style, linting rules, and other development standards.
