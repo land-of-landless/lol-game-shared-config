@@ -7,6 +7,18 @@ A central repository for shared configuration files used across various League o
 
 ## 🚀 Getting Started
 
+### issuing a new version
+
+```bash
+npx changeset
+```
+
+then
+
+```bash
+npm run local-release
+```
+
 ### Installation
 
 Add this package to your project as a development dependency.
@@ -14,13 +26,13 @@ Add this package to your project as a development dependency.
 **With npm:**
 
 ```bash
-npm install --save-dev lol-game-shared-config
+npm install --save-dev @land-of-landless/lol-game-shared-config
 ```
 
 **With Yarn:**
 
 ```bash
-yarn add --dev lol-game-shared-config
+yarn add --dev @land-of-landless/lol-game-shared-config
 ```
 
 ## Usage
@@ -34,7 +46,7 @@ In your `.eslintrc.js` or `.eslintrc.json`:
 ```javascript
 // .eslintrc.js
 module.exports = {
-  extends: 'lol-game-shared-config/eslint',
+  extends: '@land-of-landless/lol-game-shared-config/eslint',
   // Your project-specific rules and overrides go here
 };
 ```
