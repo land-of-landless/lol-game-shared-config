@@ -1,4 +1,4 @@
-import { Factory_Item_Type } from './factory';
+import type { Factory_Item_Type } from './factory.js';
 
 export const LAB_UPGRADE_INFO = {
   1: {
