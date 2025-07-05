@@ -9,11 +9,19 @@ A central repository for shared configuration files used across various League o
 
 ### issuing a new version
 
+To issue a new version of the shared configuration, you can use the Changesets tool. This tool helps manage versioning and changelogs in a straightforward way.
+
 ```bash
 npx changeset
 ```
 
-then
+for just applying the version bump:
+
+```bash
+npx changeset version
+```
+
+for versioning and publishing the package, you can use the following command:
 
 ```bash
 npm run local-release
@@ -21,18 +29,18 @@ npm run local-release
 
 ### Installation
 
-Add this package to your project as a development dependency.
+Add this package to your project as a dependency.
 
 **With npm:**
 
 ```bash
-npm install --save-dev @land-of-landless/lol-game-shared-config
+npm install --save @land-of-landless/lol-game-shared-config
 ```
 
 **With Yarn:**
 
 ```bash
-yarn add --dev @land-of-landless/lol-game-shared-config
+yarn add @land-of-landless/lol-game-shared-config
 ```
 
 ## Usage
