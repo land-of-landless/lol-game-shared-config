@@ -3,7 +3,7 @@
 [![CI](https://github.com/land-of-landless/lol-game-shared-config/actions/workflows/ci.yml/badge.svg)](https://github.com/land-of-landless/lol-game-shared-config/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A central repository for shared configuration files used across various League of Legends game-related projects. This ensures consistency in code style, linting rules, and other development standards.
+A central repository for shared configuration files used across various land of landless game-related projects. This ensures consistency in code style, and other development standards.
 
 ## 🚀 Getting Started
 
